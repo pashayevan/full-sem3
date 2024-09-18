@@ -1,6 +1,6 @@
-#include<iostream>
-#include<utility>
-#include<string>
+#include <iostream>
+#include <utility>
+#include <string>
 
 int main() {
 	std::pair<std::string, int>p={"Hello", 42};

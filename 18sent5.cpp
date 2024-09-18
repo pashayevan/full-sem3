@@ -1,6 +1,6 @@
-#include<iostream>
-#include<utility>
-#include<string>
+#include <iostream>
+#include <utility>
+#include <string>
 
 int main() {
 	std::string s1="Elementary, watson";

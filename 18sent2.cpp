@@ -1,5 +1,5 @@
-#include<iostream>
-#include<utility> //для пары 
+#include <iostream>
+#include <utility> //для пары 
 
 int main() {
 	std::pair<int,double> p={42,3.14};

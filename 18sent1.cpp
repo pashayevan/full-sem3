@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 enum class Color {
 	white,

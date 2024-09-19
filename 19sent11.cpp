@@ -25,7 +25,8 @@ int main() {
 		{2019,1,21},
 		{2021,1,30}
 	};
-	std::sort(dates.begin(),dates.end());
+	std::sort(dates.begin(),dates.end(),[](const Date& lhs, const Date& rhs) {
+		return std::tie(lhs.year,lhs.month,lhs.day)<std::tie(rhs.year,rhs.month,rhs.day);});
 	for(const auto&[year,month,day]:dates) {
 		std::cout<<year<<"."<<month<<"."<<day<<"\n";
 		

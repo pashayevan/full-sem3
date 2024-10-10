@@ -71,3 +71,12 @@ std::ostream& operator<<(std::ostream& out,const chron::Time& t){
 	out<<t.GetHours()<<":"<<t.GetMinutes()<<":"<<t.GetSeconds();
 	return out;
 }
+std::istream& operator>>(std::istream& in,chron::Time& t){
+	int h,m,s;
+		char temp;
+		in>>h>>temp;
+		in>>m>>temp;
+		in>>s>>temp;
+		t=Time(h,m,s);
+		return in;
+	}

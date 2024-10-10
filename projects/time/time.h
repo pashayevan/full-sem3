@@ -27,5 +27,6 @@ namespace chron {		//пространсво имен
 	
 }
 std::ostream& operator<<(std::ostream& out,const chron::Time& t);
+std::istream& operator>>(std::istream& in, chron::Time& t);
 
 #endif //TIME_H
